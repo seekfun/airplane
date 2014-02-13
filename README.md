@@ -1,4 +1,4 @@
 airplane
 ========
 
-An airplane war game powered by cocos2d-x.
+An airplane war game powered by quick-cocos2d-x.
