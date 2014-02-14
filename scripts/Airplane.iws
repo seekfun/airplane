@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6057470f-037f-43b4-87b3-970f9bec97d0" name="Default" comment="" />
+    <list default="true" id="6057470f-037f-43b4-87b3-970f9bec97d0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scenes/layers/PlaneLayer.lua" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airplane.ipr" afterPath="$PROJECT_DIR$/Airplane.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airplane.iws" afterPath="$PROJECT_DIR$/Airplane.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scenes/layers/BulletLayer.lua" afterPath="$PROJECT_DIR$/app/scenes/layers/BulletLayer.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scenes/layers/GameLayer.lua" afterPath="$PROJECT_DIR$/app/scenes/layers/GameLayer.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.lua" afterPath="$PROJECT_DIR$/config.lua" />
+    </list>
     <ignored path="Airplane.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/GameScene.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392217112828" ignored="false" />
-    <file path="/GameLayer.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392299713956" ignored="false" />
+    <file path="/GameLayer.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392392749347" ignored="false" />
     <file path="$PROJECT_DIR$/../../standend/scripts/config.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392214145119" ignored="false" />
-    <file path="/config.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392281816050" ignored="false" />
+    <file path="/config.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392391394486" ignored="false" />
     <file path="/MyApp.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392257399530" ignored="false" />
-    <file path="/PlaneLayer.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392299317508" ignored="false" />
+    <file path="/PlaneLayer.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392389567152" ignored="false" />
     <file path="/MainScene.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392259976280" ignored="false" />
     <file path="/BulletLayer.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392300888568" ignored="false" />
+    <file path="/Dummy.txt" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392342841949" ignored="false" />
+    <file path="/Plane.lua" changelist="6057470f-037f-43b4-87b3-970f9bec97d0" time="1392392863247" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +93,7 @@
       <file leaf-file-name="config.lua" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="15" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+            <state line="31" column="33" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +120,16 @@
       <file leaf-file-name="GameLayer.lua" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scenes/layers/GameLayer.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="32" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.85500747">
+            <state line="19" column="48" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3251445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plane.lua" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scenes/layers/Plane.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="63" selection-start="642" selection-end="642" vertical-scroll-proportion="-13.8">
               <folding />
             </state>
           </provider>
@@ -129,16 +147,7 @@
       <file leaf-file-name="BulletLayer.lua" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scenes/layers/BulletLayer.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="26" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-13.48">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaneLayer.lua" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scenes/layers/PlaneLayer.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="4" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+            <state line="39" column="47" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,26 +160,35 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/scenes/GameScene.lua" />
         <option value="$PROJECT_DIR$/app/scenes/MainScene.lua" />
         <option value="$PROJECT_DIR$/app/MyApp.lua" />
-        <option value="$PROJECT_DIR$/config.lua" />
         <option value="$PROJECT_DIR$/app/scenes/layers/PlaneLayer.lua" />
-        <option value="$PROJECT_DIR$/app/scenes/layers/GameLayer.lua" />
+        <option value="$PROJECT_DIR$/config.lua" />
         <option value="$PROJECT_DIR$/app/scenes/layers/BulletLayer.lua" />
+        <option value="$PROJECT_DIR$/app/scenes/layers/Plane.lua" />
+        <option value="$PROJECT_DIR$/app/scenes/layers/GameLayer.lua" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="666" />
+    <option name="x" value="684" />
     <option name="y" value="22" />
     <option name="width" value="752" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -198,7 +216,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,6 +290,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -281,13 +299,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propGUI" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -302,6 +321,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -330,19 +362,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -400,6 +419,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6057470f-037f-43b4-87b3-970f9bec97d0" name="Default" comment="" />
@@ -409,8 +445,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="666" y="22" width="752" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="684" y="22" width="752" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -429,7 +465,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30736545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30736545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -542,23 +578,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scenes/layers/PlaneLayer.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scenes/GameScene.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -579,28 +601,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="15" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+        <state line="31" column="33" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scenes/layers/PlaneLayer.lua">
+    <entry file="file://$PROJECT_DIR$/app/scenes/GameScene.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="4" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+        <state line="19" column="21" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scenes/layers/BulletLayer.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="26" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-13.48">
+        <state line="39" column="47" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scenes/layers/Plane.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="63" selection-start="642" selection-end="642" vertical-scroll-proportion="-13.8">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scenes/layers/GameLayer.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="32" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.85500747">
+        <state line="19" column="48" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3251445">
           <folding />
         </state>
       </provider>

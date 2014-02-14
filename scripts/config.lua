@@ -29,5 +29,7 @@ SHOOT_TEXTURE_IMAGE_FILENAME = "res/shoot.png"
 BACKGROUND_TEXTURE_DATA_FILENAME  = "res/shoot_background.plist"
 BACKGROUND_TEXTURE_IMAGE_FILENAME = "res/shoot_background.png"
 
+PLANETEXTURE = "res/img/hero1.png"
+
 --tags
 AIRPLANE = 1000

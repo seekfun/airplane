@@ -14,7 +14,7 @@ local scheduler = require("framework.scheduler")
 local background1, background2
 local schedulerHandle
 
-local PlaneLayer = import("..layers.PlaneLayer")
+local Plane = import("..layers.Plane")
 local BulletLayer = import("..layers.BulletLayer").new()
 
 function GameLayer:ctor()
@@ -30,16 +30,38 @@ function GameLayer:ctor()
     background2:setPosition(CCPoint(0, background2:getContentSize().height - 2))    -- in order to prevent black line appear
     self:addChild(background2)
 
-    if not app:isObjectExists("planeLayer") then
-        local planeLayer = PlaneLayer.new()
-        app:setObject("planeLayer", planeLayer)
+    if not app:isObjectExists("plane") then
+        local plane = Plane.new("#hero1.png")
+        app:setObject("plane", plane)
     end
 
-    self:addChild(app:getObject("planeLayer"))
+    local plane = app:getObject("plane")
+
+    local function onTouch(event, x, y)
+        print(event)
+        if event == "began" then
+            return true
+        end
+        return plane:onTouch(event, x, y)
+    end
+
+    plane:setPosition(display.cx, plane:getContentSize().height/2)
+    self:addChild(plane, 10, AIRPLANE)
+
+    local blink = CCBlink:create(1, 3)
+    local frames = display.newFrames("hero%d.png", 1, 2)
+    local animation = display.newAnimation(frames, 0.5 / 8)
+    animation:setDelayPerUnit(0.1)
+    local animate = CCAnimate:create(animation)
+
+    -- 执行闪烁动画
+    plane:runAction(blink)
+    plane:runAction(CCRepeatForever:create(animate))
+    plane:setTouchEnabled(true)
+    plane:addTouchEventListener(onTouch)
+
     self:addChild(BulletLayer)
     BulletLayer:startShoot()
-    self:setTouchEnabled(true)
-
     self:onEnter()
 end
 
@@ -56,11 +78,13 @@ function GameLayer:backgroundMove()
 
 end
 
+
+
 function GameLayer:registerWithTouchDispatcher()
     local pDir = CCDirector:sharedDirector()
     pDir:getTouchDispatcher():addTargetedDelegate(self, 0, true)
 end
 
-function GameLayer:ccTouchBegan() end
+
 
 return GameLayer

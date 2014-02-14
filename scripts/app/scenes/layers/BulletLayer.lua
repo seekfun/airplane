@@ -43,7 +43,7 @@ end
 
 function BulletLayer:addBullet(dt)
     local bullet = display.newSprite("#bullet1.png")
-    local plane = app:getObject("planeLayer"):getChildByTag(AIRPLANE)
+    local plane = app:getObject("plane")
     local planeX,planeY = plane:getPosition()
     local bulletPosition = CCPoint(planeX, planeY + plane:getContentSize().height/2)
     bullet:setPosition(bulletPosition)
